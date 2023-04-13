@@ -1,0 +1,18 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #e7eaf4;
+  color: #767b87;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+}
+
+.avatar-group {
+  display: flex;
+}
+
+.avatar-group >:first-child {
+  margin-left: 0 !important;
+}
